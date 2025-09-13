@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz & Joke App</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+  <header>
+    <h1>Responsive Design</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="quiz">
+      <h2>Quiz</h2>
+      <div class="question" id="question">Question text</div>
+      <div class="options" id="options"></div>
+      <button class="next-btn" id="nextBtn">Next</button>
+      <div id="score"></div>
+    </div>
+
+
+    <div class="joke-box">
+      <h2>Joke API</h2>
+      <p id="joke">Click the button to get a joke!</p>
+      <button onclick="getJoke()">Get Joke</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Quiz & Jokes</p>
+  </footer>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
